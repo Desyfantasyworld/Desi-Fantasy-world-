@@ -1,1 +1,1 @@
-console.log('Website loaded');
+console.log("Desi Fantasy World loaded");
