@@ -1,30 +1,56 @@
+/* Basic CSS Styles for Desi Fantasy World */
 body {
-  background-color: #fff0f5;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-  color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f9f3e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
-
-h1 {
-  color: #c2185b;
+header {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f4e2d8;
 }
-
-li {
-  margin: 10px 0;
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
 }
-
-a {
-  color: #0066cc;
-  text-decoration: none;
-  font-weight: bold;
+.story-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-a:hover {
-  text-decoration: underline;
+.story-card img {
+    width: 100%;
+    height: auto;
+}
+.story-info {
+    padding: 1rem;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8b4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.telegram-btn {
+    background-color: #0088cc;
+}
+footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
 }
